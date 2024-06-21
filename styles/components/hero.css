@@ -55,12 +55,13 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+    align-items: center;
 }
 
 .hero__menu-btn {
     background-color: var(--clr-lime600);
-    margin: auto;
-    margin-bottom: 2rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
     font-size: var(--size-lg);
 }
 
@@ -140,7 +141,7 @@ hr {
 /* lg */
 @media (min-width: 896px) {
     .hero {
-        width: 50%;
+        width: 70%;
     }
 
     .text {
@@ -163,6 +164,7 @@ hr {
 @media (min-width: 1280px) {
     .hero__wrapper {
         display: flex;
+        flex-direction: row;
     }
 
     .hero__main-wrapper {
@@ -172,7 +174,7 @@ hr {
     .hero__menucard-wrapper {
         display: flex;
         flex-direction: column;
-        flex: 1;
+        flex: 1.2;
     }
 
     .hero__img {
@@ -200,7 +202,7 @@ hr {
 
     .hero__menu-btn {
         font-size: var(--size-xl);
-        margin-left: 3rem;
+        margin-left: auto;
     }
 
     .hero__menucard {
