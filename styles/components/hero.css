@@ -189,7 +189,7 @@ hr {
     
     .hero__header {
         font-size: var(--size-4xl);
-        max-width: 50ch;
+        max-width: 55ch;
         margin-left: 3rem;
         text-align: left;
     }
