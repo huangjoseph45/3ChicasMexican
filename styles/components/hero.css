@@ -63,12 +63,17 @@ body {
     font-size: var(--size-lg);
 }
 
+.hero__menucard-wrapper {
+    display: flex;
+}
+
 .hero__menucard {
     background-color: var(--clr-red700);
     margin: 1rem;
-    display: none;
+    display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
+    flex: 1;
 }
 
 .hero__menucard-header {
