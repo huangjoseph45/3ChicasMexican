@@ -22,32 +22,32 @@
     <title>3 Chicas Mexican Kitchen</title>
   </head>
   <body style="background-color: var(--clr-lime900);">
-    <section class="header">
-      <div class="header__top-wrapper">
-        <img class="header__logo" src="/logo.png" alt="">
-        <p class="header__top-number strong">201-848-4700</p>
-      </div>
-      <ul class="header__element-wrapper">
-        <li class="header__link">
-          <a href="#" class="btn header__heading">Home</a>
-        </li>
-        <li class="header__link">
-          <a href="#" class="btn header__heading">Menu</a>
-        </li>
-        <li class="header__link">
-          <a href="#" class="btn header__heading">Specials</a>
-        </li>
-        <li class="header__link">
-          <a href="#" class="btn header__heading">Delivery</a>
-        </li>
-        <li class="header__link">
-          <a href="#" class="btn header__heading">Reviews</a>
-        </li>
-        <li class="header__link">
-          <a href="#" class="btn header__heading">Contact</a>
-        </li>
-      </ul>
-    </section>
+    <!-- HEADER -->
+    <div class="header__top-wrapper">
+      <img class="header__logo" src="/logo.png" alt="">
+      <p class="header__top-number strong">201-848-4700</p>
+    </div>
+    <ul class="header__element-wrapper">
+      <li class="header__link">
+        <a href="#" class="btn header__heading">Home</a>
+      </li>
+      <li class="header__link">
+        <a href="#" class="btn header__heading">Menu</a>
+      </li>
+      <li class="header__link">
+        <a href="#" class="btn header__heading">Specials</a>
+      </li>
+      <li class="header__link">
+        <a href="#" class="btn header__heading">Delivery</a>
+      </li>
+      <li class="header__link">
+        <a href="#" class="btn header__heading">Reviews</a>
+      </li>
+      <li class="header__link">
+        <a href="#" class="btn header__heading">Contact</a>
+      </li>
+    </ul>
+    <!-- HERO -->
     <section class="hero">
       <div class="hero__img-wrapper">
         <img src="\hero.jpg" alt="" class="hero__img img">
@@ -76,7 +76,7 @@
               Whether it's brunch or a regular daily meal, we have something to suit everyone's palate. Order take out and we will deliver to your car!
             </p>
             <div class="hero__btn-wrapper">
-              <a href="#" class="btn hero__menu-btn">our daily menu</a>
+              <a href="menu.html" class="btn hero__menu-btn">our daily menu</a>
             </div>
             <h2 class="hero__header2">
               CATERING SERVICES
@@ -85,7 +85,8 @@
               From birthdays to holiday parties, you can count on 3 Chicas Mexican Kitchen for exceptional catering services. We'll do our best to get you what you want.
             </p>
             <div class="hero__btn-wrapper">
-              <a href="#" class="btn hero__menu-btn">catering menu</a>
+              <!-- FIX THIS WITH REAL LINK -->
+              <a href="menu.html" class="btn hero__menu-btn">catering menu</a> 
             </div>
             <h2 class="hero__header2">
               DINE-IN
@@ -106,33 +107,32 @@
               Fast and convenient delivery to the local area! Allow 20 minutes minimum, please!
             </p>
             </div>
-        </div>
-        <div class="hero__menucard-wrapper">
-          <div class="hero__menucard">
-            <h1 class="hero__menucard-header">
-              MOUTHWATERING MEXICAN DISHES
-            </h1>
-            <p class="hero__menucard-text">
-              Visit us at 637 Wyckoff Avenue to enjoy authentic Mexican cuisine. You can choose from a variety of gluten-free items to satisfy your taste buds.
-            </p>
-            <a href="#" class="hero__menucard-btn btn hero__menu-btn">Menu</a>
-            <a href="201-848-4700" class="hero__phonenumber">201-848-4700</a>
+          <div class="hero__menucard-wrapper">
+            <div class="hero__menucard">
+              <h1 class="hero__menucard-header">
+                MOUTHWATERING MEXICAN DISHES
+              </h1>
+              <p class="hero__menucard-text">
+                Visit us at 637 Wyckoff Avenue to enjoy authentic Mexican cuisine. You can choose from a variety of gluten-free items to satisfy your taste buds.
+              </p>
+              <a href="#" class="hero__menucard-btn btn hero__menu-btn">Menu</a>
+              <a href="201-848-4700" class="hero__phonenumber">201-848-4700</a>
+            </div>
+            <div class="hero__menucard">
+              <h1 class="hero__menucard-header">
+                DELICIOUS COMBOS
+              </h1>
+              <p class="hero__menucard-text">
+                Try our everyday special combo with rice and beans.
+              </p>
+              <hr>
+              <p class="hero__price">$12.99</p>
+              <hr>
+              <a href="#" class="hero__menucard-btn btn hero__menu-btn">Click here</a>
+            </div>
           </div>
-          <div class="hero__menucard">
-            <h1 class="hero__menucard-header">
-              DELICIOUS COMBOS
-            </h1>
-            <p class="hero__menucard-text">
-              Try our everyday special combo with rice and beans.
-            </p>
-            <hr>
-            <p class="hero__price">$12.99</p>
-            <hr>
-            <a href="#" class="hero__menucard-btn btn hero__menu-btn">Click here</a>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
     <section class="footer">
       <ul class="footer__links-wrapper">
         <li class="footer__links">
@@ -160,7 +160,6 @@
         <img src="/groupon__logo.png" alt="groupon" class="footer__img img">
       </a>
     </section>
-    
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
