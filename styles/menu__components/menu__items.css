@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 
-.menuitems__breakfast {
+.menuitems__food {
     color: var(--clr-lime900);
     font-size: var(--size-xl);
     text-align: center;
@@ -17,7 +17,7 @@
     margin: auto;
 }
 
-.menuitems__breakfast-main {
+.menuitems__food-main {
     max-width: 50ch;
     text-align: center;
     margin: auto;
@@ -25,18 +25,17 @@
     font-size: var(--size-sm);
 }
 
-.menuitems__breakfast-list {
+.menuitems__food-list {
     margin: 0;
     padding: 0;
 }
 
-.menuitems__breakfast-elements {
+.menuitems__food-elements {
     list-style-type: none;
-    text-align: left;
-    padding-left: 1.5rem;
-    padding-right: 1rem;
-    margin-bottom: 1rem;
-    
+    text-align: center;
+    max-width: 40ch;
+    margin: auto;
+    margin-bottom: 1.5rem;   
 }
 
 .menuitems__element-header {
@@ -45,20 +44,73 @@
 
 .menuitems__element-desc {
     font-size: var(--size-sm);
-    
 }
+
+
 
 /* xs */
 /* @media (min-width: 475px) {} */
 
 /* sm */
-/* @media (min-width: 640px) {} */
+@media (min-width: 640px) {
+    .menuitems__food {
+        font-size: var(--size-2xl);
+    }
+    
+    .menuitems__food-main {
+        font-size: var(--size-base);
+    }
+
+    .menuitems__food-elements {
+        max-width: 50ch;
+    }
+
+    .menuitems__element-header {
+        font-size: var(--size-xl);
+    }
+    
+    .menuitems__element-desc {
+        font-size: var(--size-base);
+    }
+}
  
 /* md */
-/* @media (min-width: 768px) {} */
+@media (min-width: 824px) {
+    .menuitems__food {
+        font-size: var(--size-3xl);
+    }
+    
+    .menuitems__food-main {
+        font-size: var(--size-lg);
+    }
+
+    .menuitems__element-header {
+        font-size: var(--size-2xl);
+    }
+    
+    .menuitems__element-desc {
+        font-size: var(--size-lg);
+    }
+}
 
 /* lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+    .menuitems__food {
+        font-size: var(--size-3xl);
+    }
+    
+    .menuitems__food-main {
+        font-size: var(--size-lg);
+    }
+
+    .menuitems__element-header {
+        font-size: var(--size-2xl);
+    }
+    
+    .menuitems__element-desc {
+        font-size: var(--size-lg);
+    }
+}
 
 /* xl */
 /* @media (min-width: 1280px) {} */
