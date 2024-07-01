@@ -6,7 +6,6 @@
     background-color: var(--clr-orange200);
     width: 100%;
     border: none;
-    padding: 1rem;
     display: flex;
     flex-direction: column;    
 }

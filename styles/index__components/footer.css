@@ -3,6 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    background-color: var(--clr-lime950);
+    overscroll-behavior: contain;
 }
 
 .footer__links-wrapper {
@@ -13,6 +16,7 @@
     justify-content: space-evenly;
     width: 60%;
     margin-top: 1rem;
+    padding: 0;
 }
 
 .footer__links {

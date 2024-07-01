@@ -6,6 +6,7 @@
   --clr-lime600: #65a30d;
   --clr-lime900: #365314;
   --clr-red700: #b91c1c;
+  --clr-lime950: #1a2e05; 
 
 
   /* sizes */
@@ -90,4 +91,9 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: var(--clr-rose);
   outline: 1px solid var(--clr-rose);
+}
+
+.body__wrapper {
+  width: 95%;
+  margin: auto;
 }
