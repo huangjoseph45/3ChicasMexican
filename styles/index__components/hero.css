@@ -223,3 +223,26 @@
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
+/* Visit section (home page) */
+.visit {
+    background-color: var(--clr-light);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.visit__header {
+    color: var(--clr-lime900);
+    font-size: var(--size-3xl);
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.visit__text {
+    font-size: var(--size-lg);
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.visit__text a {
+    color: var(--clr-lime600);
+}

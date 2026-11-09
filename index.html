@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
@@ -13,25 +13,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <title>3 Chicas Mexican Kitchen</title>
+    <meta name="description" content="3 Chicas Mexican Kitchen in Wyckoff, NJ: California-fresh Mexican food since 2002. Open kitchen, salsa bar, dine-in, curbside takeout, delivery, and catering." />
+    <title>3 Chicas Mexican Kitchen — Wyckoff, NJ</title>
   </head>
   <body style="background-color: var(--clr-lime900);">
     <!-- HEADER -->
     <div class="header__top-wrapper">
       <a href="index.html">
-        <img class="header__logo" src="/logo.png" alt="">
+        <img class="header__logo" src="/logo.png" alt="3 Chicas Mexican Kitchen" />
       </a>
-      <p class="header__top-number strong">201-848-4700</p>
+      <p class="header__top-number strong"><a href="tel:+12018484700">201-848-4700</a></p>
     </div>
     <ul class="header__element-wrapper">
       <li class="header__link">
-        <a href="index.html" class="btn header__heading">Home</a>
+        <a href="index.html" class="btn header__heading" aria-current="page">Home</a>
       </li>
       <li class="header__link">
         <a href="menu.html" class="btn header__heading">Menu</a>
@@ -43,17 +40,17 @@
         <a href="delivery.html" class="btn header__heading">Delivery</a>
       </li>
       <li class="header__link">
-        <a href="#" class="btn header__heading">Reviews</a>
+        <a href="https://www.yelp.com/biz/three-chicas-mexican-kitchen-wyckoff" class="btn header__heading">Reviews</a>
       </li>
       <li class="header__link">
-        <a href="#" class="btn header__heading">Contact</a>
+        <a href="#visit" class="btn header__heading">Contact</a>
       </li>
     </ul>
     <!-- HERO -->
      <div class="body__wrapper">
        <section class="hero">
          <div class="hero__img-wrapper">
-           <img src="\hero.jpg" alt="" class="hero__img img">
+           <img src="/hero.jpg" alt="Fresh Mexican dishes at 3 Chicas Mexican Kitchen" class="hero__img img">
          </div>
          <div class="hero__wrapper">
            <div class="hero__main-wrapper">
@@ -88,7 +85,6 @@
                  From birthdays to holiday parties, you can count on 3 Chicas Mexican Kitchen for exceptional catering services. We'll do our best to get you what you want.
                </p>
                <div class="hero__btn-wrapper">
-                 <!-- FIX THIS WITH REAL LINK -->
                  <a href="catering-menu.html" class="btn hero__menu-btn">catering menu</a> 
                </div>
                <h2 class="hero__header2">
@@ -120,8 +116,8 @@
                <p class="hero__menucard-text">
                  Visit us at 637 Wyckoff Avenue to enjoy authentic Mexican cuisine. You can choose from a variety of gluten-free items to satisfy your taste buds.
                </p>
-               <a href="#" class="hero__menucard-btn btn hero__menu-btn">Menu</a>
-               <a href="201-848-4700" class="hero__phonenumber">201-848-4700</a>
+               <a href="menu.html" class="hero__menucard-btn btn hero__menu-btn">Menu</a>
+               <a href="tel:+12018484700" class="hero__phonenumber">201-848-4700</a>
              </div>
              <div class="hero__menucard">
                <h1 class="hero__menucard-header">
@@ -130,13 +126,24 @@
                <p class="hero__menucard-text">
                  Try our everyday special combo with rice and beans.
                </p>
-               <hr class=".hr1"> 
+               <hr class="hr1"> 
                <p class="hero__price">$12.99</p>
-               <hr class=".hr1">
-               <a href="#" class="hero__menucard-btn btn hero__menu-btn">Click here</a>
+               <hr class="hr1">
+               <a href="menu.html" class="hero__menucard-btn btn hero__menu-btn">See the menu</a>
              </div>
            </div>
          </section>
+       <section class="visit" id="visit">
+         <h2 class="visit__header">Visit us</h2>
+         <p class="visit__text">
+           637 Wyckoff Avenue, Wyckoff, NJ 07481<br />
+           Open daily 12:00&ndash;8:00 PM &middot; BYOB
+         </p>
+         <p class="visit__text">
+           <a href="tel:+12018484700">201-848-4700</a> &middot;
+           <a href="https://www.google.com/maps/search/?api=1&amp;query=3+Chicas+Mexican+Kitchen+Wyckoff+NJ">Get directions</a>
+         </p>
+       </section>
        <section class="footer">
          <ul class="footer__links-wrapper">
            <li class="footer__links">
@@ -156,13 +163,18 @@
            </li>
            <li class="footer__links">
              <a href="https://tripadvisor.com/Restaurant_Review-g46945-d517744-Reviews-3_Chicas_Mexican_Kitchen-Wyckoff_New_Jersey.html">
-               <i class="fa fa-tripadvisor footer__icon"></i>
+               <i class="fa-brands fa-tripadvisor footer__icon"></i>
              </a>
            </li>
          </ul>
          <a href="https://www.groupon.com/biz/wyckoff-nj/3-chicas-mexican-kitchen">
            <img src="/groupon__logo.png" alt="groupon" class="footer__img img">
          </a>
+        <p class="footer__visit">
+          637 Wyckoff Avenue, Wyckoff, NJ 07481 &middot;
+          <a href="tel:+12018484700">201-848-4700</a> &middot; Open daily
+          12:00&ndash;8:00 PM
+        </p>
        </section>
        <script type="module" src="./src/main.js"></script>
      </div>

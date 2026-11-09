@@ -30,6 +30,18 @@
     margin-bottom: 2rem;
 }
 
+.footer__visit {
+    color: var(--clr-light);
+    text-align: center;
+    font-size: var(--size-base);
+    margin: 0 1rem 2rem;
+    line-height: 1.6;
+}
+
+.footer__visit a {
+    color: var(--clr-orange400);
+}
+
 /* xs */
 /* @media (min-width: 475px) {} */
 
